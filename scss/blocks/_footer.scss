@@ -1,0 +1,91 @@
+.footer-site {
+    margin-bottom: 88px;    
+}
+
+.footer-row {
+    padding: 47px 86px 47px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: #2C343E;
+}
+
+.footer__logo {
+    margin-right: 103px;
+
+    display: inline-block;
+
+    transition: opacity .3s ease-in;
+
+    &:hover {
+        opacity: 80%;
+    }
+    &:active {
+        opacity: 70%;
+    }
+}
+
+.footer__list {
+    margin-right: 360px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+}
+
+.footer__links {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+
+    color: $footer-link-color;
+
+    transition: color .3s ease-in;
+
+    &:hover {
+        color: $white-text-color;
+    }
+}
+
+.footer__social-icons-list {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.footer__social-icons-link {
+    display: inline-block;
+
+    width: 24px;
+    height: 24px;
+
+    transition: background-image .3s ease-in;
+}
+
+.footer__social-icons-item:nth-child(1) .footer__social-icons-link {
+    background-image: url(../images/footer/facebook-icon.svg);
+
+    &:hover {
+        background-image: url(../images/footer/facebook-icon-hover.svg);
+    }
+}
+
+.footer__social-icons-item:nth-child(2) .footer__social-icons-link {
+    background-image: url(../images/footer/instagram-icon.svg);
+
+    &:hover {
+        background-image: url(../images/footer/instagram-icon-hover.svg);
+    }
+}
+
+.footer__social-icons-item:nth-child(3) .footer__social-icons-link {
+    height: 20px;
+
+    background-image: url(../images/footer/twitter-icon.svg);
+
+    &:hover {
+        background-image: url(../images/footer/twitter-icon-hover.svg);
+    }
+}

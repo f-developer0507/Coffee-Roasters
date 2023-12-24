@@ -1,0 +1,44 @@
+.header-site {
+    padding: 35px 0px 57px;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: inline-block;
+
+    transition: opacity .3s ease-in;
+
+    &:hover {
+        opacity: 80%;
+    }
+    &:active {
+        opacity: 70%;
+    }
+}
+
+.header__list {
+    display: flex;
+    align-items: center;
+    column-gap: 33px;
+}
+
+.header__link {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0.923px;
+    text-transform: uppercase;
+
+    color: $nav-link-color;
+
+    transition: color .3s ease-in;
+
+    &:hover {
+        color: $text-color;
+    }
+}

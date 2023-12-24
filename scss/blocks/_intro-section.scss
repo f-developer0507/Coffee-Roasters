@@ -1,0 +1,67 @@
+.intro-section {
+    margin-bottom: 123px;
+}
+
+.intro-row {
+    padding: 117px 0px 116px 85px;
+
+    background-image: url(../images/intro/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 10px;
+}
+
+.intro__content {
+    max-width: 493px;
+
+    color: $white-text-color;
+}
+
+.intro__title {
+    margin-bottom: 32px;
+    
+    font-size: 72px;
+    font-family: $fraunces-font;
+    line-height: 72px;
+}
+
+.intro__text {
+    margin-bottom: 56px;
+
+    max-width: 417px;
+
+    font-size: 16px;
+    line-height: 26px;
+
+    color: $white-secondary-text-color;
+}
+
+.intro__btn {
+    padding: 15px 0px;
+
+    width: 217px;
+    height: 56px;
+
+    display: inline-block;
+
+    font-size: 18px;
+    font-family: $fraunces-font;
+    text-align: center;
+
+    background-color: $accent;
+    color: $white-text-color;
+    border-radius: 6px;
+    
+    transition: all .3s ease-in;
+
+    &:hover {
+        background-color: $btn-hover-color;
+    }
+
+    &:active {
+        background-color: $btn-active-color;
+        color: $accent;
+    }
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import "./fonts";
+@import "./reser";
+@import "./normalize";
+@import "./veriables";
+@import "./container";
+@import "./blocks/blocks";
+
+
+body {
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    font-family: $barlow-font;
+}
+

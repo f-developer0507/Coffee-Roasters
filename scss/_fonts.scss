@@ -1,0 +1,53 @@
+// Barlow start
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow Regular'), local('Barlow-Regular'),
+        url('./../fonts/Barlow/Barlow-Regular.woff2') format('woff2'),
+        url('./../fonts/Barlow/Barlow-Regular.woff') format('woff');
+
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow Medium'), local('Barlow-Medium'),
+        url('./../fonts/Barlow/Barlow-Medium.woff2') format('woff2'),
+        url('./../fonts/Barlow/Barlow-Medium.woff') format('woff');
+
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow SemiBold'), local('Barlow-SemiBold'),
+        url('./../fonts/Barlow/Barlow-SemiBold.woff2') format('woff2'),
+        url('./../fonts/Barlow/Barlow-SemiBold.woff') format('woff');
+
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: local('Barlow Bold'), local('Barlow-Bold'),
+        url('./../fonts/Barlow/Barlow-Bold.woff2') format('woff2'),
+        url('./../fonts/Barlow/Barlow-Bold.woff') format('woff');
+
+    font-weight: 700;
+    font-style: normal;
+}
+// Barlow end
+
+//Fraunces start
+@font-face {
+    font-family: 'Fraunces';
+    src: local('Fraunces Black'), local('Fraunces-Black'),
+        url('./../fonts/Fraunces/Fraunces-Black.woff2') format('woff2'),
+        url('./../fonts/Fraunces/Fraunces-Black.woff') format('woff');
+        
+    font-weight: 900;
+    font-style: normal;
+  }
+//Fraunces end

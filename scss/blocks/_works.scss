@@ -1,0 +1,133 @@
+.works {
+    margin-bottom: 200px;
+}
+
+.works__title {
+    margin-bottom: 80px;
+
+    font-size: 24px;
+    font-family: $fraunces-font;
+
+    color: #83888F;
+}
+
+.works__line {
+    position: relative;
+    margin-bottom: 67px;
+
+    width: 760px;
+    height: 2px;
+
+    background-color: #FDD6BA;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+
+        width: 31px;
+        height: 31px;
+
+
+        background-color: #FEFCF7;
+        border: 2px solid $accent;
+        border-radius: 50%;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+
+        width: 31px;
+        height: 31px;
+
+
+        background-color: #FEFCF7;
+        border: 2px solid $accent;
+        border-radius: 50%;
+    }
+}
+
+.works__line__dots {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    width: 31px;
+    height: 31px;
+
+    background-color: #FEFCF7;
+    border: 2px solid $accent;
+    border-radius: 50%;
+}
+
+.works__list {
+    margin-bottom: 64px;
+
+    display: flex;
+    align-items: center;
+    column-gap: 95px;
+}
+
+.works__item {
+    max-width: 285px;
+
+    color: $text-color;
+}
+
+.works__item__badge {
+    margin-bottom: 38px;
+
+    display: inline-block;
+
+    font-size: 72px;
+    font-family: $fraunces-font;
+    line-height: 72px;
+
+    color: #FDD6BA;
+}
+
+.works__item__title {
+    width: 255px;
+    margin-bottom: 42px;
+
+    font-size: 32px;
+    font-family: $fraunces-font;
+    line-height: 36px;
+}
+
+.works__item__text {
+    line-height: 26px;
+}
+
+.works__btn {
+    padding: 15px;
+
+    width: 217px;
+
+    display: inline-block;
+
+    font-size: 18px;
+    font-family: $fraunces-font;
+    line-height: 25px;
+    text-align: center;
+
+    background-color: $accent;
+    color: $white-text-color;
+    border-radius: 6px;
+
+    transition: all .3s ease-in;
+
+    &:hover {
+        background-color: $btn-hover-color;
+    }
+    &:active {
+        background-color: $btn-active-color;
+        color: $accent;
+    }
+}
